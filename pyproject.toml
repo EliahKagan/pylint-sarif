@@ -23,7 +23,7 @@ include = ["sarif-schema.json"]  # TODO: Do this better (maybe via data_files).
 
 [tool.poetry.dependencies]
 python = "^3.7"
-python-jsonschema-objects = "^0.4.1"
+python-jsonschema-objects = "^0.4.2"
 
 [tool.poetry.group.dev.dependencies]
 pylint = { version = "^2.17.4", python = ">=3.7.2,<4.0" }
