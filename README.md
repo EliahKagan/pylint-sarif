@@ -3,6 +3,29 @@
 code here was written by the original GrammaTech developers, but they are not
 responsible for any bugs.
 
+This is on PyPI as
+[`pylint-sarif-unofficial`](https://pypi.org/project/pylint-sarif-unofficial/).
+
+This does not currently support
+[jsonschema](https://github.com/python-jsonschema/jsonschema) 4.18
+([bug #19](https://github.com/EliahKagan/pylint-sarif/issues/19)). To avoid
+holding your project's `jsonschema` version (if it uses it) back, I suggest
+installing `pylint-sarif-unofficial` using `pipx` instead of listing it in
+your project's manifest file. You can put a command like this in your pylint CI
+workflow:
+
+```bash
+pipx install pylint-sarif-unofficial
+```
+
+Or with the specific version you want, for example:
+
+```bash
+pipx install pylint-sarif-unofficial==0.2.0
+```
+
+Your project can still install `pylint` itself as a development dependency.
+
 The [`LICENSE`](https://github.com/EliahKagan/pylint-sarif/blob/develop/LICENSE)
 is the same as in the upstream project. The original project readme follows
 below.
