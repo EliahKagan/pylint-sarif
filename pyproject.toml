@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pylint-sarif-unofficial"
-version = "0.2.0a0"
+version = "0.2.0"
 description = "Pylint output as SARIF"
 authors = []
 maintainers = ["Eliah Kagan <degeneracypressure@gmail.com>"]
