@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pylint-sarif-unofficial"
-version = "0.1.0"
+version = "0.2.0a0"
 description = "Pylint output as SARIF"
 authors = []
 maintainers = ["Eliah Kagan <degeneracypressure@gmail.com>"]
@@ -23,6 +23,7 @@ include = ["sarif-schema.json"]  # TODO: Do this better (maybe via data_files).
 
 [tool.poetry.dependencies]
 python = "^3.7"
+jsonschema = "~4.17.3"
 python-jsonschema-objects = "^0.4.2"
 
 [tool.poetry.group.dev.dependencies]
