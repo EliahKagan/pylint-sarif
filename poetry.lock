@@ -324,18 +324,18 @@ files = [
 
 [[package]]
 name = "python-jsonschema-objects"
-version = "0.4.2"
+version = "0.4.4"
 description = "An object wrapper for JSON Schema definitions"
 optional = false
 python-versions = "*"
 files = [
-    {file = "python_jsonschema_objects-0.4.2-py2.py3-none-any.whl", hash = "sha256:47e9bff2948fbe6fc672d255e66e88e07edf061174c203164adc13fecc0de9f0"},
-    {file = "python_jsonschema_objects-0.4.2.tar.gz", hash = "sha256:7211b6ee73bf8dd351dd5b08c08387ca084659f308b241fbb80a3ed5beb784f0"},
+    {file = "python_jsonschema_objects-0.4.4-py2.py3-none-any.whl", hash = "sha256:d85883bc90847e7422587857c4e4d8d566167329f34e95eb65551c219bf0cf12"},
+    {file = "python_jsonschema_objects-0.4.4.tar.gz", hash = "sha256:99dac0f6b768ad075eca1c40e70c3145216fd47e20a1ce8fe848e2caf0c554c7"},
 ]
 
 [package.dependencies]
 inflection = ">=0.2"
-jsonschema = ">=2.3"
+jsonschema = ">=2.3,<4.18"
 Markdown = ">=2.4"
 six = ">=1.5.2"
 
