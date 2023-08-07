@@ -54,13 +54,13 @@ files = [
 
 [[package]]
 name = "dill"
-version = "0.3.6"
-description = "serialize all of python"
+version = "0.3.7"
+description = "serialize all of Python"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "dill-0.3.6-py3-none-any.whl", hash = "sha256:a07ffd2351b8c678dfc4a856a3005f8067aea51d6ba6c700796a4d9e280f39f0"},
-    {file = "dill-0.3.6.tar.gz", hash = "sha256:e5db55f3687856d8fbdab002ed78544e1c4559a130302693d839dfe8f93f2373"},
+    {file = "dill-0.3.7-py3-none-any.whl", hash = "sha256:76b122c08ef4ce2eedcd4d1abd8e641114bfc6c2867f49f3c41facf65bf19f5e"},
+    {file = "dill-0.3.7.tar.gz", hash = "sha256:cc1c8b182eb3013e24bd475ff2e9295af86c1a38eb1aff128dac8962a9ce3c03"},
 ]
 
 [package.extras]
@@ -202,19 +202,20 @@ files = [
 
 [[package]]
 name = "markdown"
-version = "3.4.3"
+version = "3.4.4"
 description = "Python implementation of John Gruber's Markdown."
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "Markdown-3.4.3-py3-none-any.whl", hash = "sha256:065fd4df22da73a625f14890dd77eb8040edcbd68794bcd35943be14490608b2"},
-    {file = "Markdown-3.4.3.tar.gz", hash = "sha256:8bf101198e004dc93e84a12a7395e31aac6a9c9942848ae1d99b9d72cf9b3520"},
+    {file = "Markdown-3.4.4-py3-none-any.whl", hash = "sha256:a4c1b65c0957b4bd9e7d86ddc7b3c9868fb9670660f6f99f6d1bca8954d5a941"},
+    {file = "Markdown-3.4.4.tar.gz", hash = "sha256:225c6123522495d4119a90b3a3ba31a1e87a70369e03f14799ea9c0d7183a3d6"},
 ]
 
 [package.dependencies]
 importlib-metadata = {version = ">=4.4", markers = "python_version < \"3.10\""}
 
 [package.extras]
+docs = ["mdx-gh-links (>=0.2)", "mkdocs (>=1.0)", "mkdocs-nature (>=0.4)"]
 testing = ["coverage", "pyyaml"]
 
 [[package]]
@@ -241,35 +242,35 @@ files = [
 
 [[package]]
 name = "platformdirs"
-version = "3.9.1"
+version = "3.10.0"
 description = "A small Python package for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "platformdirs-3.9.1-py3-none-any.whl", hash = "sha256:ad8291ae0ae5072f66c16945166cb11c63394c7a3ad1b1bc9828ca3162da8c2f"},
-    {file = "platformdirs-3.9.1.tar.gz", hash = "sha256:1b42b450ad933e981d56e59f1b97495428c9bd60698baab9f3eb3d00d5822421"},
+    {file = "platformdirs-3.10.0-py3-none-any.whl", hash = "sha256:d7c24979f292f916dc9cbf8648319032f551ea8c49a4c9bf2fb556a02070ec1d"},
+    {file = "platformdirs-3.10.0.tar.gz", hash = "sha256:b45696dab2d7cc691a3226759c0d3b00c47c8b6e293d96f6436f733303f77f6d"},
 ]
 
 [package.dependencies]
-typing-extensions = {version = ">=4.6.3", markers = "python_version < \"3.8\""}
+typing-extensions = {version = ">=4.7.1", markers = "python_version < \"3.8\""}
 
 [package.extras]
-docs = ["furo (>=2023.5.20)", "proselint (>=0.13)", "sphinx (>=7.0.1)", "sphinx-autodoc-typehints (>=1.23,!=1.23.4)"]
-test = ["appdirs (==1.4.4)", "covdefaults (>=2.3)", "pytest (>=7.3.1)", "pytest-cov (>=4.1)", "pytest-mock (>=3.10)"]
+docs = ["furo (>=2023.7.26)", "proselint (>=0.13)", "sphinx (>=7.1.1)", "sphinx-autodoc-typehints (>=1.24)"]
+test = ["appdirs (==1.4.4)", "covdefaults (>=2.3)", "pytest (>=7.4)", "pytest-cov (>=4.1)", "pytest-mock (>=3.11.1)"]
 
 [[package]]
 name = "pylint"
-version = "2.17.4"
+version = "2.17.5"
 description = "python code static checker"
 optional = false
 python-versions = ">=3.7.2"
 files = [
-    {file = "pylint-2.17.4-py3-none-any.whl", hash = "sha256:7a1145fb08c251bdb5cca11739722ce64a63db479283d10ce718b2460e54123c"},
-    {file = "pylint-2.17.4.tar.gz", hash = "sha256:5dcf1d9e19f41f38e4e85d10f511e5b9c35e1aa74251bf95cdd8cb23584e2db1"},
+    {file = "pylint-2.17.5-py3-none-any.whl", hash = "sha256:73995fb8216d3bed149c8d51bba25b2c52a8251a2c8ac846ec668ce38fab5413"},
+    {file = "pylint-2.17.5.tar.gz", hash = "sha256:f7b601cbc06fef7e62a754e2b41294c2aa31f1cb659624b9a85bcba29eaf8252"},
 ]
 
 [package.dependencies]
-astroid = ">=2.15.4,<=2.17.0-dev0"
+astroid = ">=2.15.6,<=2.17.0-dev0"
 colorama = {version = ">=0.4.5", markers = "sys_platform == \"win32\""}
 dill = [
     {version = ">=0.2", markers = "python_version < \"3.11\""},
@@ -324,18 +325,18 @@ files = [
 
 [[package]]
 name = "python-jsonschema-objects"
-version = "0.4.2"
+version = "0.4.4"
 description = "An object wrapper for JSON Schema definitions"
 optional = false
 python-versions = "*"
 files = [
-    {file = "python_jsonschema_objects-0.4.2-py2.py3-none-any.whl", hash = "sha256:47e9bff2948fbe6fc672d255e66e88e07edf061174c203164adc13fecc0de9f0"},
-    {file = "python_jsonschema_objects-0.4.2.tar.gz", hash = "sha256:7211b6ee73bf8dd351dd5b08c08387ca084659f308b241fbb80a3ed5beb784f0"},
+    {file = "python_jsonschema_objects-0.4.4-py2.py3-none-any.whl", hash = "sha256:d85883bc90847e7422587857c4e4d8d566167329f34e95eb65551c219bf0cf12"},
+    {file = "python_jsonschema_objects-0.4.4.tar.gz", hash = "sha256:99dac0f6b768ad075eca1c40e70c3145216fd47e20a1ce8fe848e2caf0c554c7"},
 ]
 
 [package.dependencies]
 inflection = ">=0.2"
-jsonschema = ">=2.3"
+jsonschema = ">=2.3,<4.18"
 Markdown = ">=2.4"
 six = ">=1.5.2"
 
@@ -363,13 +364,13 @@ files = [
 
 [[package]]
 name = "tomlkit"
-version = "0.11.8"
+version = "0.12.1"
 description = "Style preserving TOML library"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "tomlkit-0.11.8-py3-none-any.whl", hash = "sha256:8c726c4c202bdb148667835f68d68780b9a003a9ec34167b6c673b38eff2a171"},
-    {file = "tomlkit-0.11.8.tar.gz", hash = "sha256:9330fc7faa1db67b541b28e62018c17d20be733177d290a13b24c62d1614e0c3"},
+    {file = "tomlkit-0.12.1-py3-none-any.whl", hash = "sha256:712cbd236609acc6a3e2e97253dfc52d4c2082982a88f61b640ecf0817eab899"},
+    {file = "tomlkit-0.12.1.tar.gz", hash = "sha256:38e1ff8edb991273ec9f6181244a6a391ac30e9f5098e7535640ea6be97a7c86"},
 ]
 
 [[package]]
@@ -535,4 +536,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.7"
-content-hash = "8815d018ddc19b0fa9ccdaeabe7415b4682806125cecd6bf71ff066029607ddf"
+content-hash = "7b68c5f3bb425a5445e84507766447c33ecae1f7142fe39a093e9c5a2ace22e3"
